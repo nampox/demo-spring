@@ -33,7 +33,7 @@ public class CartProductService {
         try {
             CartProduct cartProduct = cartProductRepository.getById(id);
             cartProductRepository.delete(cartProduct);
-            return "xoa thanh cong";
+            return "xoa thanh cong oke";
         }catch (Exception exception){
             return "CartProduct ko ton tai";
         }
