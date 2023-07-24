@@ -24,6 +24,6 @@ public class CartController {
     @DeleteMapping(path = "delete")
     public String removeFromCart(@PathVariable Long cartId, @PathVariable Long productId) {
         cartService.removeFromCart(cartId, productId);
-        return "Xoá sản phẩm khỏi giỏ hàng thành công";
+        return "Xoá sản phẩm khỏi g iỏ hàng thành công";
     }
 }
