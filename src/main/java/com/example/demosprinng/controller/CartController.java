@@ -14,6 +14,7 @@ public class CartController {
     @PostMapping(path = "findAll")
     public CartProduct addToCart(@PathVariable Long cartId, @PathVariable Long productId) {
         return cartService.addToCart(cartId, productId);
+        // demo
     }
 
     @GetMapping(path = "")
